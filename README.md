@@ -11,8 +11,10 @@ https://www.youtube.com/watch?v=Na-x7UHS7xw
 Komut tuşları?
 
 A tuşu ile top sola hareket eder.
+
 D tuşu ile top sağa hareket eder.
-Wtuşu ile top zıplar.
+
+W tuşu ile top zıplar.
 
 
 Star Taker Nedir?
