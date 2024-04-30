@@ -35,10 +35,10 @@ function zipla() {
     const ziplamaAraligi = setInterval(() => {
         topDiv.style.bottom = yukseklik + 'px';
         yukseklik += 7;
-        if (yukseklik >= 250) {
+        if (yukseklik >= 450) {
             2
             clearInterval(ziplamaAraligi);
-            let dususYuksekligi = 250;
+            let dususYuksekligi = 450;
             const dususAraligi = setInterval(() => {
                 topDiv.style.bottom = dususYuksekligi + 'px';
                 dususYuksekligi -= 5;
