@@ -5,13 +5,18 @@ html {
     overflow: hidden;
 }
 
+
+/* Oyun container'ı ekranın tamamını kaplar */
+
 .oyun-container {
     position: fixed;
-    /* Değişiklik: Ekranın sabit olmasını sağlar */
     width: 100%;
     height: 100%;
     background-color: rgb(172, 240, 255);
 }
+
+
+/* Yol, oyun alanının alt kısmını oluşturur */
 
 .yol {
     position: absolute;
@@ -21,6 +26,9 @@ html {
     height: 40px;
     background-color: green;
 }
+
+
+/* Top, oyunun kontrol edilen objesini temsil eder */
 
 #top {
     position: absolute;
@@ -32,6 +40,9 @@ html {
     border-radius: 50%;
     background-color: rgb(207, 50, 76);
 }
+
+
+/* Topun görsel detayları */
 
 #top::before,
 #top::after {
@@ -55,10 +66,16 @@ html {
     z-index: 1;
 }
 
+
+/* Topun kenar çizgileri */
+
 #top::before,
 #top::after {
     border: 2px solid rgb(255, 254, 254);
 }
+
+
+/* Bulutlar */
 
 .bulut {
     position: absolute;
@@ -86,6 +103,9 @@ html {
     margin-top: -160px;
 }
 
+
+/* Yıldız */
+
 .yildiz {
     position: absolute;
     bottom: 10%;
@@ -94,14 +114,19 @@ html {
     height: auto;
 }
 
+
+/* Siyah top */
+
 .siyah-top {
     width: 40px;
     height: 40px;
     background-color: black;
     position: absolute;
     border-radius: 50%;
-    /* Yuvarlak bir top oluşturur */
 }
+
+
+/* Ekranı kaplayan siyah arkaplan */
 
 #ekranKaplayici {
     position: fixed;
